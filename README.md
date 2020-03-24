@@ -1,7 +1,19 @@
 # Software_deployement
-Software Deployement project : Deployement of a "package" on tex processing
 
-One Paragraph of project description goes here
+## Introduction
+This is a project given to 4 year Bio-Informatics and Modelling students of INSA of Lyon. In our Software Deployement courses, we were asked to deploye a package.
+
+This [git repository](https://github.com/AnissaE/Software_deployement.git) is where you can find our "Play with Words" software. We wrote for you some functions in Python3 so that you can play a little with some words (string type). 
+
+## Coded functions
+
+We coded five functions so you may play with strings. They are :
+- char_freq : Get the number of time each character of your string can be found, taking into account if you want so the case of the character.
+- are_anagrams : Find whether or not two strings are anagrams.
+- letters_only : Keep only the letters of your string.
+- remove : Remove the first occurrence of a string X in a string Y.
+- remove_all : Remove all occurrences of a string X in a string Y.
+
 
 ## Getting Started
 
@@ -9,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You do not need so many software to have our code working. Just make sure that you do have Python3.
 
 ```
 Give examples
@@ -33,43 +45,19 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. 
 
-## Versioning
+## TODO
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## FAQ
 
 ## Authors
 
@@ -80,9 +68,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
