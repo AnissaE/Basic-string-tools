@@ -14,6 +14,7 @@ You may play with words by using a few functions we coded. They are :
 - remove : Remove the first occurrence of a string X in a string Y.
 - remove_all : Remove all occurrences of a string X in a string Y.
 
+If you need more details, please see our [readthedocs]() page.
 
 ## How to install the software
 
@@ -44,13 +45,11 @@ Explain how to run the automated tests for this system
 ## Authors
 
 Everyone of us is a 4 year student at INSA of Lyon in the Bio-Informatics and Modelling Department.
-* **Armande CIROT** - Passionnate about drama, she is a slow learner. Yet she is enthusiastic and bring dynamism in her working groups.
-* **Anissa EL MARAHI** - A born singer, morocan this Moroccan princess is the sunshine of our days and will regret all her life teaching us some specific arabic words.
+* **Armande CIROT** - Passionnate about drama, she is a slow learner. Yet she is enthusiastic and brings dynamism in her working groups.
+* **Anissa EL MARAHI** - A born singer, this Moroccan princess is the sunshine of our days and will regret all her life teaching us some specific arabic words.
 * **Claire LEMONNIER** - Hardworking and willing to learn as much as she can, she is currently filling up her confinement days with courses and projects and learning foreign languages. We hope she doesn't forget to work her salsa and kizomba.
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
