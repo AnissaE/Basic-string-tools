@@ -41,6 +41,9 @@ Explain how to run the automated tests for this system
 
 ## TODO
 
+- Upgrade remove_all so that it works with something like "lololle" (it becomes "le" when it should be "lole")
+- Test all possibilities of our functions
+- Create Webpage
 
 ## Authors
 
