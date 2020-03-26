@@ -17,27 +17,20 @@ You may play with words by using a few functions we coded. They are :
 
 ## How to install the software
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-First, open a terminal in the folder where you want to download the module. You can then write the following instructions:
+First, open a shell in the folder where you want to download the module. You can then write the following instructions:
 
 ```
-git clone git@github.com:AnissaE/Software_deployement.git
-#OU PARCE QUE JE SUIS PAS SURE
+pip install bstools
 
-import bstools
-bstools.FUNCTION(PARAMETERS)
+Si pas sur pip:
 
+pip install --index-urlhttps://test.pypi.org/simple/ --no-depsexample-pkg-your-username
 ```
 
 
 ### Prerequisites
 
-Just make sure that you do have Python3. You do not need any other software to have our module working. 
-
-```
-Give examples
-```
+Just make sure that you do have [Python3](https://www.python.org/downloads/). You do not need any other software to have our module working. 
 
 
 ## Running the tests
@@ -45,13 +38,8 @@ Give examples
 Explain how to run the automated tests for this system
 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. 
-
 ## TODO
 
-## FAQ
 
 ## Authors
 
