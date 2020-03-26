@@ -15,7 +15,7 @@ You may play with words by using a few functions we coded. They are :
 - remove_all : Remove all occurrences of a string X in a string Y.
 
 
-## Getting Started
+## How to install the software
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
