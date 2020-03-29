@@ -1,0 +1,270 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>bstools module &#8212; Basic String tools (bstools) 0 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Modules" href="modules.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="Modules"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Basic String tools (bstools) 0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">Modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bstools">
+<span id="bstools-module"></span><h1>bstools module<a class="headerlink" href="#module-bstools" title="Permalink to this headline">¶</a></h1>
+<p>Created on Mon Nov 12 14:02:38 2018</p>
+<p>&#64;author: clemonnier</p>
+<dl class="function">
+<dt id="bstools.are_anagrams">
+<code class="descclassname">bstools.</code><code class="descname">are_anagrams</code><span class="sig-paren">(</span><em>s1</em>, <em>s2</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bstools.html#are_anagrams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bstools.are_anagrams" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>s1</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</li>
+<li><strong>s2</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">True is s1 and s2 are anagrams, False if they are not</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">bool</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">bstools</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bstools</span><span class="o">.</span><span class="n">are_anagrams</span><span class="p">(</span><span class="s2">&quot;Elections results&quot;</span><span class="p">,</span><span class="s2">&quot;Lies let&#39;s recount&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This function is not case-sensitive and does not take delimeters and punctuation into account (cf Example)</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="bstools.char_freq">
+<code class="descclassname">bstools.</code><code class="descname">char_freq</code><span class="sig-paren">(</span><em>s</em>, <em>cs=True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bstools.html#char_freq"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bstools.char_freq" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>s</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</li>
+<li><strong>cs</strong> (<em>bool</em>) – Indicates if whether or not case should be taken into account.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">associative array giving the number of occurrences of each character in s</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">dict</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">bstools</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;Kiwi&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bstools</span><span class="o">.</span><span class="n">char_freq</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">{&#39;K&#39;: 1, &#39;i&#39;: 2, &#39;w&#39;: 1}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If s is an empty string, an empty dictionnary is returned</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">By default,the char_freq function is case-sensitive (cs=True). Setting cs=False allows a non-case-sensitive behaviour.</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="bstools.letters_only">
+<code class="descclassname">bstools.</code><code class="descname">letters_only</code><span class="sig-paren">(</span><em>s</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bstools.html#letters_only"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bstools.letters_only" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">s without any delimiter, space, or punctuation</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">bstools</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;Hello World !&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">letters_only</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">&#39;HelloWorld&#39;</span>
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">bstools.remove(), bstools.remove_all()</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="bstools.remove">
+<code class="descclassname">bstools.</code><code class="descname">remove</code><span class="sig-paren">(</span><em>rm</em>, <em>s</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bstools.html#remove"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bstools.remove" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">s without the first occurence of rm</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">bstools</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bstools</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;na&quot;</span><span class="p">,</span><span class="s2">&quot;bananas&quot;</span><span class="p">)</span>
+<span class="go">&#39;banas&#39;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The remove function is case-sensitive</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">bstools.remove_all()</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="bstools.remove_all">
+<code class="descclassname">bstools.</code><code class="descname">remove_all</code><span class="sig-paren">(</span><em>rm</em>, <em>s</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bstools.html#remove_all"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bstools.remove_all" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s</strong> (<em>str</em>) – string of characters (could be a word or a set of words separated by delimiters)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">s without all the possible occurences of rm</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Example:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">bstools</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bstools</span><span class="o">.</span><span class="n">remove_all</span><span class="p">(</span><span class="s2">&quot;na&quot;</span><span class="p">,</span><span class="s2">&quot;bananas&quot;</span><span class="p">)</span>
+<span class="go">&#39;bas&#39;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The remove function is case-sensitive</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">bstools.remove()</p>
+</div>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="modules.html"
+                        title="previous chapter">Modules</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/bstools.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="Modules"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Basic String tools (bstools) 0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="modules.html" >Modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Claire Lemonnier, Armande Cirot, Anissa El marrahi.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>
