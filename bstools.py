@@ -15,7 +15,7 @@ def char_freq(s,cs=True):
         :returns: associative array giving the number of occurrences of each character in s
         :rtype: dict
 
-
+	
         :Example:
 
         >>> import bstools
@@ -72,6 +72,7 @@ def letters_only(s):
   :returns:  s without any delimiter, space, or punctuation
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
@@ -98,6 +99,7 @@ def remove(rm,s):
   :returns:  s without the first occurence of rm 
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
@@ -121,6 +123,7 @@ def remove_all(rm, s):
   :returns:  s without all the possible occurences of rm 
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
