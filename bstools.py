@@ -80,7 +80,7 @@ def letters_only(s):
   >>> letters_only(a)
   'HelloWorld'
   
-  ...seealso:: bstools.remove(), bstools.remove_all()
+  .. seealso:: bstools.remove(), bstools.remove_all()
 
   """
   delim=["'","(",")","[","]","{","}","-","\n","_","/","*","+",".",",",";",":","!","?",'"','','\'',' ']
@@ -106,8 +106,8 @@ def remove(rm,s):
   >>> bstools.remove("na","bananas")
   'banas'
   
-  ...note:: The remove function is case-sensitive
-  ...seealso:: bstools.remove_all()
+  .. note:: The remove function is case-sensitive
+  .. seealso:: bstools.remove_all()
   """
   len_substring=len(rm)#longeur de la partie à supprimer
   if rm in s:
@@ -130,8 +130,8 @@ def remove_all(rm, s):
   >>> bstools.remove_all("na","bananas")
   'bas'
   
-  ...note:: The remove function is case-sensitive
-  ...seealso:: bstools.remove()
+  .. note:: The remove function is case-sensitive
+  .. seealso:: bstools.remove()
   """
   len_substring=len(rm)#longeur de la partie à supprimer
   while rm in s:
