@@ -18,7 +18,7 @@ def char_freq(s,cs=True):
 	
         :Example:
 
-        >>> import bstools
+        >>> from bstools import bstools
         >>> a = "Kiwi"
         >>> bstools.char_freq(a)
         {'K': 1, 'i': 2, 'w': 1}
@@ -49,7 +49,7 @@ def are_anagrams(s1,s2):
 
   :Example:
 
-  >>> import bstools
+  >>> from bstools import bstools
   >>> bstools.are_anagrams("Elections results","Lies let's recount")
   True
   
@@ -75,7 +75,7 @@ def letters_only(s):
 
   :Example:
     
-  >>> import bstools
+  >>> from bstools import bstools
   >>> a = "Hello World !"
   >>> letters_only(a)
   'HelloWorld'
@@ -102,7 +102,7 @@ def remove(rm,s):
 
   :Example:
     
-  >>> import bstools
+  >>> from bstools import bstools
   >>> bstools.remove("na","bananas")
   'banas'
   
@@ -126,7 +126,7 @@ def remove_all(rm, s):
 
   :Example:
     
-  >>> import bstools
+  >>> from bstools import bstools
   >>> bstools.remove_all("na","bananas")
   'bas'
   
