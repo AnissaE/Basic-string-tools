@@ -15,7 +15,7 @@ def char_freq(s,cs=True):
         :returns: associative array giving the number of occurrences of each character in s
         :rtype: dict
 
-
+	
         :Example:
 
         >>> import bstools
@@ -67,11 +67,12 @@ def are_anagrams(s1,s2):
 
 def letters_only(s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without any delimiter, space, or punctuation
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without any delimiter, space, or punctuation \
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
@@ -79,7 +80,7 @@ def letters_only(s):
   >>> letters_only(a)
   'HelloWorld'
   
-  ...seealso:: bstools.remove(), bstools.remove_all()
+  .. seealso:: bstools.remove(), bstools.remove_all()
 
   """
   delim=["'","(",")","[","]","{","}","-","\n","_","/","*","+",".",",",";",":","!","?",'"','','\'',' ']
@@ -93,19 +94,20 @@ def letters_only(s):
       
 def remove(rm,s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without the first occurence of rm 
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without the first occurence of rm \
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
   >>> bstools.remove("na","bananas")
   'banas'
   
-  ...note:: The remove function is case-sensitive
-  ...seealso:: bstools.remove_all()
+  .. note:: The remove function is case-sensitive
+  .. seealso:: bstools.remove_all()
   """
   len_substring=len(rm)#longeur de la partie à supprimer
   if rm in s:
@@ -116,19 +118,20 @@ def remove(rm,s):
 
 def remove_all(rm, s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without all the possible occurences of rm 
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without all the possible occurences of rm \
   :rtype:str
     
+
   :Example:
     
   >>> import bstools
   >>> bstools.remove_all("na","bananas")
   'bas'
   
-  ...note:: The remove function is case-sensitive
-  ...seealso:: bstools.remove()
+  .. note:: The remove function is case-sensitive
+  .. seealso:: bstools.remove()
   """
   len_substring=len(rm)#longeur de la partie à supprimer
   while rm in s:

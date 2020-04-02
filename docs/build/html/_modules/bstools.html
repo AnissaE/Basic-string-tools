@@ -56,7 +56,7 @@
 <span class="sd">        :returns: associative array giving the number of occurrences of each character in s</span>
 <span class="sd">        :rtype: dict</span>
 
-
+<span class="sd">	</span>
 <span class="sd">        :Example:</span>
 
 <span class="sd">        &gt;&gt;&gt; import bstools</span>
@@ -108,10 +108,10 @@
 
 <div class="viewcode-block" id="letters_only"><a class="viewcode-back" href="../bstools.html#bstools.letters_only">[docs]</a><span class="k">def</span> <span class="nf">letters_only</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
   <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters)</span>
-<span class="sd">  :type s: str</span>
-<span class="sd">  :returns:  s without any delimiter, space, or punctuation</span>
-<span class="sd">  :rtype: str</span>
+<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters) \</span>
+<span class="sd">  :type s: str \</span>
+<span class="sd">  :returns:  s without any delimiter, space, or punctuation \</span>
+<span class="sd">  :rtype:str</span>
 <span class="sd">    </span>
 
 <span class="sd">  :Example:</span>
@@ -135,12 +135,12 @@
       
 <div class="viewcode-block" id="remove"><a class="viewcode-back" href="../bstools.html#bstools.remove">[docs]</a><span class="k">def</span> <span class="nf">remove</span><span class="p">(</span><span class="n">rm</span><span class="p">,</span><span class="n">s</span><span class="p">):</span>
   <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters)</span>
-<span class="sd">  :type s: str</span>
-<span class="sd">  :returns:  s without the first occurence of rm </span>
-<span class="sd">  :rtype: str </span>
-<span class="sd">   </span>
-<span class="sd"> </span>
+<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters) \</span>
+<span class="sd">  :type s: str \</span>
+<span class="sd">  :returns:  s without the first occurence of rm \</span>
+<span class="sd">  :rtype:str</span>
+<span class="sd">    </span>
+
 <span class="sd">  :Example:</span>
 <span class="sd">    </span>
 <span class="sd">  &gt;&gt;&gt; import bstools</span>
@@ -149,7 +149,6 @@
 <span class="sd">  </span>
 <span class="sd">  .. note:: The remove function is case-sensitive</span>
 <span class="sd">  .. seealso:: bstools.remove_all()</span>
-
 <span class="sd">  &quot;&quot;&quot;</span>
   <span class="n">len_substring</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">rm</span><span class="p">)</span><span class="c1">#longeur de la partie à supprimer</span>
   <span class="k">if</span> <span class="n">rm</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
@@ -160,10 +159,10 @@
 
 <div class="viewcode-block" id="remove_all"><a class="viewcode-back" href="../bstools.html#bstools.remove_all">[docs]</a><span class="k">def</span> <span class="nf">remove_all</span><span class="p">(</span><span class="n">rm</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
   <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters)</span>
-<span class="sd">  :type s: str</span>
-<span class="sd">  :returns:  s without all the possible occurences of rm</span>
-<span class="sd">  :rtype: str</span>
+<span class="sd">  :param s: string of characters (could be a word or a set of words separated by delimiters) \</span>
+<span class="sd">  :type s: str \</span>
+<span class="sd">  :returns:  s without all the possible occurences of rm \</span>
+<span class="sd">  :rtype:str</span>
 <span class="sd">    </span>
 
 <span class="sd">  :Example:</span>
@@ -174,7 +173,6 @@
 <span class="sd">  </span>
 <span class="sd">  .. note:: The remove function is case-sensitive</span>
 <span class="sd">  .. seealso:: bstools.remove()</span>
-
 <span class="sd">  &quot;&quot;&quot;</span>
   <span class="n">len_substring</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">rm</span><span class="p">)</span><span class="c1">#longeur de la partie à supprimer</span>
   <span class="k">while</span> <span class="n">rm</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
