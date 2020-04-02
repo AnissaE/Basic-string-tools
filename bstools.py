@@ -67,9 +67,9 @@ def are_anagrams(s1,s2):
 
 def letters_only(s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without any delimiter, space, or punctuation
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without any delimiter, space, or punctuation \
   :rtype:str
     
 
@@ -94,9 +94,9 @@ def letters_only(s):
       
 def remove(rm,s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without the first occurence of rm 
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without the first occurence of rm \
   :rtype:str
     
 
@@ -118,9 +118,9 @@ def remove(rm,s):
 
 def remove_all(rm, s):
   """
-  :param s: string of characters (could be a word or a set of words separated by delimiters)
-  :type s: str
-  :returns:  s without all the possible occurences of rm 
+  :param s: string of characters (could be a word or a set of words separated by delimiters) \
+  :type s: str \
+  :returns:  s without all the possible occurences of rm \
   :rtype:str
     
 
