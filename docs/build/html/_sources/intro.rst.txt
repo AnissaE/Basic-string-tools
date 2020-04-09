@@ -35,7 +35,3 @@ bstools is for Basic String tools because these are tools  in order to manipulat
 
 
 
-``The image used was taken from this website : https://ici.radio-canada.ca/nouvelle/1134821/lama-grippe-vaccin-anticorps-souche-antigene-arme-virus-traitement-souris-saison``
-
-
-
