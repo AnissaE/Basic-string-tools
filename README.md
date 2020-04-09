@@ -5,6 +5,8 @@ This is a project given to 4 year Bio-Informatics and Modelling students of INSA
 
 This [git repository](https://github.com/AnissaE/Software_deployement.git) is where you can find our "Play with Words" software. We wrote for you some functions in Python3 so that you can play a little with some words (string type). 
 
+If you want to learn more about it after you finished the README, you'll be pleased to learn that we also have a [github webpage](https://anissae.github.io/Basic-string-tools/) !
+
 ## Coded functions
 
 You may play with words by using a few functions we coded. They are :
@@ -46,7 +48,6 @@ Explain how to run the automated tests for this system
 
 - Upgrade remove_all so that it works with something like "lololle" (it becomes "le" when it should be "lole")
 - Test all possibilities of our functions
-- Create Webpage
 
 ## Authors
 
