@@ -14,29 +14,32 @@ You may play with words by using a few functions we coded. They are :
 - remove : Remove the first occurrence of a string X in a string Y.
 - remove_all : Remove all occurrences of a string X in a string Y.
 
-If you need more details, please see our [readthedocs]() page.
+If you need more details, please see our [readthedocs](https://bstools.readthedocs.io/en/latest/#) page.
 
-## How to install the software
-
-First, open a shell in the folder where you want to download the module. You can then write the following instructions:
-
-```
-pip install bstools
-
-Si pas sur pip:
-
-pip install --index-urlhttps://test.pypi.org/simple/ --no-depsexample-pkg-your-username
-```
-
+## Install the software
 
 ### Prerequisites
 
 Just make sure that you do have [Python3](https://www.python.org/downloads/). You do not need any other software to have our module working. 
 
+### Install command
+
+First, open a shell in the folder where you want to download the module. You can then write the following instructions:
+
+```
+#On Windows
+pip.exe install -i https://test.pypi.org/simple/ --no-deps bstools
+
+#On Linux
+pip install -i https://test.pypi.org/simple/ --no-deps bstools
+```
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
+
+## Tutorial
+
 
 
 ## TODO
@@ -44,7 +47,6 @@ Explain how to run the automated tests for this system
 - Upgrade remove_all so that it works with something like "lololle" (it becomes "le" when it should be "lole")
 - Test all possibilities of our functions
 - Create Webpage
-- Check if it works on Windows
 
 ## Authors
 
