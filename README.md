@@ -38,7 +38,15 @@ pip install -i https://test.pypi.org/simple/ --no-deps bstools
 
 ## Running tests
 
-You can find some test commands and the results you sould obtain in the docstring.
+You can find some test commands with the results you should obtain in the docstring.
+
+## Docker
+
+You'll find our project in [Dockerhub](https://hub.docker.com/) with the name bstools_playwords (file from mendioca0205). The Docker pull command is :
+
+```
+docker pull mendioca0205/bstools_playwords
+```
 
 ## TODO
 
