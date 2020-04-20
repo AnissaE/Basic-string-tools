@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bstools", # Replace with your own username
-    version="0.0.3",
+    version="0.0.4",
     author="Claire Lemonnier",
     author_email="claire.lemonnier@insa-lyon.fr",
     description="A small and simple module to perform simple manipulations on strings",
