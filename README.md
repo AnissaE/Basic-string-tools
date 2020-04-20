@@ -3,7 +3,7 @@
 ## Introduction
 This is a project given to 4 year Bio-Informatics and Modelling students of INSA of Lyon. In our Software Deployement courses, we were asked to deploye a python module.
 
-This [git repository](https://github.com/AnissaE/Software_deployement.git) is where you can find our "Play with Words" software. We wrote for you some functions in Python3 so that you can play a little with some words (string type). 
+This [git repository](https://github.com/AnissaE/Software_deployement.git) is where you can find our "Basic String Tools" package. We wrote for you some functions in Python3 so that you can play a little with some words (string type). 
 
 If you want to learn more about it after you finished the README, you'll be pleased to learn that we also have a [github webpage](https://anissae.github.io/Basic-string-tools/) !
 
