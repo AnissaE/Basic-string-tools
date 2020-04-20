@@ -18,7 +18,7 @@ You may play with words by using a few functions we coded. They are :
 
 If you need more details, please see our [readthedocs](https://bstools.readthedocs.io/en/latest/#) page.
 
-## Install the software
+## Install the package
 
 ### Prerequisites
 
