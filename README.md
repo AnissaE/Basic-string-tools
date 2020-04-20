@@ -36,13 +36,9 @@ pip.exe install -i https://test.pypi.org/simple/ --no-deps bstools
 pip install -i https://test.pypi.org/simple/ --no-deps bstools
 ```
 
-## Running the tests
+## Running tests
 
-Explain how to run the automated tests for this system
-
-## Tutorial
-
-
+You can find some test commands and the results you sould obtain in the docstring.
 
 ## TODO
 
